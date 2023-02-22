@@ -1,5 +1,5 @@
 {
-    "name": "georgeboot/laravel-tiptap",
+    "name": "entryninja/laravel-tiptap",
     "description": "Opinionated integration of Tiptap editor using the TALL stack",
     "keywords": [
         "laravel",
@@ -8,7 +8,7 @@
         "livewire",
         "tall stack"
     ],
-    "homepage": "https://github.com/georgeboot/laravel-tiptap",
+    "homepage": "https://github.com/entryninja/laravel-tiptap",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Georgeboot\\LaravelTiptap\\": "src/"
+            "Entryninja\\LaravelTiptap\\": "src/"
         }
     },
     "autoload-dev": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Georgeboot\\LaravelTiptap\\ServiceProvider"
+                "Entryninja\\LaravelTiptap\\ServiceProvider"
             ]
         }
     },
