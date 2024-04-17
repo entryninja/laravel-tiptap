@@ -34,7 +34,8 @@
     "rollup-plugin-typescript2": "^0.27.1",
     "standard-version": "^8.0.1",
     "tslib": "^1.10.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.6.3",
+    "prosemirror-state": "^1.4.3"
   },
   "dependencies": {}
 }

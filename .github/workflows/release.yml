@@ -27,8 +27,3 @@ jobs:
         working-directory: packages/laravel-tiptap
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      # - run: git add package.json
-      # - run: git commit -m 'Bump version'
-      # - run: git push
-      #   env:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}

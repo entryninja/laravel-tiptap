@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: ['8.0']
+        php: ['8.3']
     name: Pest - PHP ${{ matrix.php }}
     steps:
       - uses: actions/checkout@v2
@@ -43,7 +43,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.0'
+          php-version: '8.3'
           extensions: soap, bcmath, pdo_sqlite, intl
       - uses: ramsey/composer-install@v1
         with:
@@ -80,25 +80,3 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           flags: jest
           file: test-results/jest/clover.xml
-
-#  phpcs:
-#    runs-on: ubuntu-latest
-#    name: PHP Style Fixer
-#    steps:
-#      - uses: actions/checkout@v2
-#      - uses: shivammathur/setup-php@v2
-#        with:
-#          php-version: '7.4'
-#          extensions: soap, bcmath, pdo_sqlite
-#      - name: Get Composer Cache Directory
-#        id: composer-cache
-#        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
-#      - uses: actions/cache@v2
-#        with:
-#          path: ${{ steps.composer-cache.outputs.dir }}
-#          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
-#          restore-keys: ${{ runner.os }}-composer-
-#      - name: Install Composer dependencies
-#        run: composer install --no-interaction --no-progress  --prefer-dist --optimize-autoloader --ignore-platform-reqs
-#      - name: Run PHP-CS-Fixer
-#        run: vendor/bin/php-cs-fixer fix --dry-run --diff --allow-risky=yes
