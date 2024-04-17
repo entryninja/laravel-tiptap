@@ -4,3 +4,4 @@ yarn.lock
 vendor/
 .phpunit.result.cache
 yarn-error.log
+/.idea

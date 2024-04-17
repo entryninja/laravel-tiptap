@@ -1,5 +1,5 @@
 {
-    "name": "georgeboot/laravel-tiptap",
+    "name": "entryninja/laravel-tiptap",
     "description": "Opinionated integration of Tiptap editor using the TALL stack",
     "keywords": [
         "laravel",
@@ -13,7 +13,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "George Boot"
+            "name": "Frans Jooste & Jaco Smith"
         }
     ],
     "require": {
@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Georgeboot\\LaravelTiptap\\": "src/"
+            "EntryNinja\\LaravelTiptap\\": "src/"
         }
     },
     "autoload-dev": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Georgeboot\\LaravelTiptap\\ServiceProvider"
+                "EntryNinja\\LaravelTiptap\\ServiceProvider"
             ]
         }
     },
