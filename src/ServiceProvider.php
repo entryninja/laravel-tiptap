@@ -1,6 +1,6 @@
 <?php
 
-namespace Georgeboot\LaravelTiptap;
+namespace Entryninja\LaravelTiptap;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
