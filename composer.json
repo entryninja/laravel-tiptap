@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EntryNinja\\LaravelTiptap\\": "src/"
+            "Entryninja\\LaravelTiptap\\": "src/"
         }
     },
     "autoload-dev": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "EntryNinja\\LaravelTiptap\\ServiceProvider"
+                "Entryninja\\LaravelTiptap\\ServiceProvider"
             ]
         }
     },
