@@ -20,15 +20,10 @@
         "php": "^8.3",
         "ext-json": "*",
         "aws/aws-sdk-php": "^3.80",
-        "laravel/framework": "^8.0|^9.0|^10.0|^11.0|^12.0",
-        "spatie/invade": "^1.1"
+        "laravel/framework": "^11.0|^12.0",
+        "spatie/invade": "^2.0"
     },
     "require-dev": {
-        "mockery/mockery": "^1.2",
-        "nunomaduro/larastan": "^2.4",
-        "orchestra/testbench": "^7.0",
-        "pestphp/pest": "^1.0",
-        "phpunit/phpunit": "^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
