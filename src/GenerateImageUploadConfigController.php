@@ -1,6 +1,6 @@
 <?php
 
-namespace Georgeboot\LaravelTiptap;
+namespace Entryninja\LaravelTiptap;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
